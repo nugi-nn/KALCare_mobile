@@ -29,7 +29,7 @@ module.exports = {
     browser
             .assert.elementPresent("//*[@class = 'slider-frame']", 'Slide Frame')
             .assert.elementPresent("//*[@class = 'MuiBox-root jss267']", 'KALCare Outlet')
-            .assert.elementPresent("//*[@class = 'MuiBox-root jss308']", 'Chat dengan Kalina')
+            .assert.elementPresent("//*[@class = 'MuiBox-root jss311']", 'Chat dengan Kalina')
 //FOOTER (#__next > div.jss250.jss251)
     browser     
             .assert.elementPresent("//*[@role = 'button' and (text() = 'Beranda' or . = 'Beranda')]", 'Button Beranda')
